@@ -27,7 +27,7 @@ const Heroheader = () => {
       <div className="z-10 select-none h-2/5 md:h-3/4 ml-8 md:ml-24 lg:ml-32 flex flex-col justify-center md:justify-start lg:justify-center">
         <h1 className="font-extrabold font-serif text-4xl md:text-5xl lg:text-7xl">
           Hello,
-          <br /> I'm Nhi
+          <br /> I'm Thuan
         </h1>
         <p className="text-gray-500 mb-8">Welcome to my portfolio</p>
         <Button>
