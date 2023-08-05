@@ -6,9 +6,11 @@ import Button from "../Button";
 const ContactSection = () => {
   return (
     <Container>
-      <div className="h-screen w-100 flex flex-col md:flex-row justify-center md:justify-start items-center">
+      <div className="min-h-screen h-screen w-100 flex flex-row items-center">
         <div>
-          <h1 className="font-semibold font-serif text-5xl">Contact</h1>
+          <h1 className="font-semibold font-serif text-5xl text-gray-700">
+            Contact
+          </h1>
           <p className="text-gray-500">Don't be shy! Hit me up!</p>
           <div className="flex gap-2 my-6">
             <Button>

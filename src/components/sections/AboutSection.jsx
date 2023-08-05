@@ -3,7 +3,7 @@ import Container from "../Container";
 const AboutSection = () => {
   return (
     <Container>
-      <div className="h-screen w-100 flex flex-col-reverse md:flex-row justify-center items-center">
+      <div className="min-h-screen h-screen w-100 flex flex-col-reverse md:flex-row justify-around md:justify-center items-center">
         <img
           className="transition my-8 mx-auto"
           alt="cat"
@@ -11,12 +11,9 @@ const AboutSection = () => {
           src="./images/cat-on-document.png"
         />
         <div className="w-100 md:w-2/4 sm:pb-24">
-          <div className="flex items-end pb-5">
-            <h1 className="font-semibold text-5xl mb-6">About me</h1>
-            <div className="animate-bounce text-3xl pb-6">
-              {" "}
-              <p>🏀</p>
-            </div>
+          <div className="flex items-center">
+            <h1 className="text-5xl font-semibold mb-3">About me &nbsp; </h1>
+            <div className="text-3xl animate-bounce">🏀</div>
           </div>
           <p className="mb-3">
             I enjoy creating beautiful and reliable applications for internet

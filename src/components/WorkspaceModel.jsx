@@ -13,7 +13,7 @@ const WorkspaceModel = (props) => {
   const { nodes, materials } = useGLTF(MODEL_SRC);
   const ref = useRef();
 
-  useFrame((_, delta) => (ref.current.rotation.y += delta));
+  // useFrame((_, delta) => (ref.current.rotation.y += delta));
 
   return (
     <mesh
