@@ -1,4 +1,5 @@
 import "./App.css";
+import Header from "./components/Header";
 import AboutSection from "./components/sections/AboutSection";
 import ContactSection from "./components/sections/ContactSection";
 import Heroheader from "./components/sections/Heroheader";
@@ -6,6 +7,7 @@ import Heroheader from "./components/sections/Heroheader";
 function App() {
   return (
     <div className="w-full flex flex-col items-center">
+      <Header />
       <Heroheader />
       <div className="snap-mandatory snap-y">
         <section className="snap-always snap-center">

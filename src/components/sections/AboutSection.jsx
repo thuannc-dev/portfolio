@@ -10,21 +10,21 @@ const AboutSection = () => {
           width="300px"
           src="./images/cat-on-document.png"
         />
-        <div className="w-100 md:w-2/4 sm:pb-24">
+        <div className="w-100 md:w-2/4 sm:pb-24 text-gray-700">
           <div className="flex items-center">
             <h1 className="text-5xl font-semibold mb-3">About me &nbsp; </h1>
             <div className="text-3xl animate-bounce">🏀</div>
           </div>
           <p className="mb-3">
             I enjoy creating beautiful and reliable applications for internet
-            and phones. My goal is to always build scalable products and
-            performant experiences.
+            and phones.
           </p>
           <p>Here are a few technologies I've been working with recently:</p>
           <ul className="leading-9">
             <li>• ReactJS, Next.js</li>
             <li>• JavaScript, TypeScript</li>
-            <li>• Tailwind, MUI, Ant Dessign, Chakra UI</li>
+            <li>• Tailwind, MUI, Ant Design, Styled Components</li>
+            <li>• RestAPI, GraphQL</li>
           </ul>
         </div>
       </div>
